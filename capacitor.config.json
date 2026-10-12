@@ -1,0 +1,12 @@
+{
+  "appId": "com.nziroger.petanque13",
+  "appName": "Pétanque 13",
+  "webDir": "www",
+  "backgroundColor": "#1d2829",
+  "android": {
+    "allowMixedContent": false
+  },
+  "ios": {
+    "contentInset": "never"
+  }
+}

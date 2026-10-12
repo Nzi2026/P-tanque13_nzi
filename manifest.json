@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Pétanque 13",
+  "short_name": "Pétanque 13",
+  "description": "Le premier à 13 points gagne. Pointez près du cochonnet ou tirez pour chasser la boule adverse. Jouable sans connexion.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#1d2829",
+  "theme_color": "#1d2829",
+  "categories": ["games", "sports"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

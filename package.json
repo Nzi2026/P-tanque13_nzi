@@ -1,0 +1,13 @@
+{
+  "name": "petanque13",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pétanque 13 : PWA + applications Android / iOS (Capacitor)",
+  "scripts": {
+    "build:www": "node scripts/copy-www.js",
+    "sync": "npm run build:www && npx cap sync",
+    "android": "npm run sync && npx cap open android",
+    "ios": "npm run sync && npx cap open ios",
+    "serve": "npx serve ."
+  }
+}
